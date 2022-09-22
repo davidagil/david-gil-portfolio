@@ -18,7 +18,7 @@ const Content = () => {
             </div>
             <div className='max-w-[1000px] w-full grid grid-cols-1 gap-8'>
                 <p className='pb-6 text-center text-zinc-600'>
-                    Checkout some of the content i've created from; like Youtube tutorials to blog posts!
+                    Checkout some of the content i've created from Youtube tutorials to blog posts to my Udemy Course!
                 </p>
             </div>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>

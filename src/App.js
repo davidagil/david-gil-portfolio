@@ -30,7 +30,9 @@ const App = () => {
       <Navbar/>
       <Home/>
       <About/>
+      <div style={isMobile ? {height: '0px'} : {height: '300px'}}></div>
       <Content/>
+      <div style={isMobile ? {height: '0px'} : {height: '100px'}}></div>
       <Tech/>
       <div style={isMobile ? {height: '0px'} : {height: '800px'}}></div>
       <Projects/>
