@@ -26,13 +26,13 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className='bg-[#f8fafc]'>
       <Navbar/>
       <Home/>
       <About/>
-      <div style={isMobile  ? {height: '0px'} : {height: '300px'}}></div>
+      <div style={isMobile  ? {height: '200px'} : {height: '300px'}}></div>
       <Content/>
-      <div style={isMobile ? {height: '0px'} : {height: '100px'}}></div>
+      <div style={isMobile ? {height: '200px'} : {height: '100px'}}></div>
       <Tech/>
       <div style={isMobile ? {height: '0px'} : {height: '1000px'}}></div>
       <Projects/>
