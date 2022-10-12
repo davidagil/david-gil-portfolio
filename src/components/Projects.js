@@ -13,6 +13,7 @@ import Landing from '../assets/landing.png';
 import Photo from '../assets/photo.png';
 import Weather from '../assets/weather.png';
 import Organizer from '../assets/organizer.png';
+import SpentIt from '../assets/spent-it.png';
 
 const Projects = () => {
   return (
@@ -25,6 +26,30 @@ const Projects = () => {
                 </div>
 
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4'>
+
+                 {/* SPENT-IT */}
+                 <div
+                    style={{ backgroundImage: `url(${SpentIt})`, height: '350px' }}
+                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                >
+                    <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white tracking-wider'>
+                        SPENT-IT (React Native)
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a target="_blank" rel="noreferrer" href='https://www.youtube.com/shorts/Nuesl4Mm8oQ'>
+                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                            Demo
+                        </button>
+                        </a>
+                        <a target="_blank" rel="noreferrer" href='https://github.com/davidlindnerjr/expense-tracker'>
+                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                            Code
+                        </button>
+                        </a>
+                    </div>
+                    </div>
+                </div>
 
                 {/* MERN Shop */}
                 <div
