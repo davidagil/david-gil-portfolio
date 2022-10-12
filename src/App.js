@@ -34,9 +34,9 @@ const App = () => {
       <Content/>
       <div style={isMobile ? {height: '200px'} : {height: '100px'}}></div>
       <Tech/>
-      <div style={isMobile ? {height: '0px'} : {height: '1000px'}}></div>
+      <div style={isMobile ? {height: '0px'} : {height: '1200px'}}></div>
       <Projects/>
-      <div style={isMobile ? {height: '0px'} : {height: '1000px'}}></div>
+      <div style={isMobile ? {height: '0px'} : {height: '1100px'}}></div>
       <Contact/>
     </div>
   );
