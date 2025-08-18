@@ -1,4 +1,4 @@
-# David Lindner Portfolio
+# David Gil Portfolio
 
 ## Check it out -> https://davidlindnerjr-portfolio.web.app/
 
