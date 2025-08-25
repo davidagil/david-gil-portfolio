@@ -15,30 +15,14 @@ const About = () => {
                 <div></div>
 
                 </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 text-zinc-600 px-4'>
-                    <div className='sm:text-right text-4xl font-bold '>
-                        <p>
-                            Hey there! This is David. Take a look around and see what I have to offer in the world of software engineering.
-                        </p>
-                    </div>
-                    <div>
-                        <p className='pb-2'>
-                            I am a Full Stack Software Engineer with a passion for the Front End. Designing 
-                            and implementing structure and functionality into mobile and web applications 
-                            fills me with joy. On the web side, I have experience with frameworks such as 
-                            React and Vue; coinciding with CSS frameworks Tailwind, Material UI, and Tailwind 
-                            for all of the styling needs. On the flip side, for mobile, I have vast experience 
-                            using the Flutter SDK to create Android and iOS applications; along with React Native. 
-                        </p>
-                    <div>
-                        <p className='pb-2'>
-                            Towards the Back End, I have been a part of several projects that have used the Rust 
-                            programming language such as REST APIs and Software Development Kits for crypto 
-                            currency. While Rust is is a great overall language that can be used for both mobile 
-                            and web projects; I also have knowledge of the Javascript ecosystem such as 
-                            Node, Express, and MongoDB/Mongoose.
-                        </p>
-                    </div>
+                <div className="max-w-[1000px] w-full flex justify-center items-center text-zinc-600 px-4">
+                <div className="">
+                    <p className="pb-2 text-lg">
+                    Full Stack Software Engineer with a strong passion for front-end development, specializing in building responsive and user-friendly web and mobile applications. Experienced in modern web frameworks including React and Vue, with expertise in styling using Tailwind CSS and Material UI. Skilled in mobile development with Flutter SDK (Android/iOS) and React Native. On the back end, contributed to projects leveraging Rust for REST APIs and SDKs in the cryptocurrency space, alongside proficiency in the JavaScript ecosystem including Node.js, Express, and MongoDB/Mongoose.
+                    </p>
+                    <p className="pb-2 text-lg">
+                    Beyond technical expertise, I have led cross-functional teams to deliver large-scale projects, overseeing requirements, guiding developers, and ensuring successful implementation of high-impact solutions that improved efficiency and reduced costs.
+                    </p>
                 </div>
             </div>
         </div>

@@ -32,7 +32,7 @@ const App = () => {
       <About/>
       <div style={isMobile  ? {height: '200px'} : {height: '300px'}}></div>
       <Content/>
-      <div style={isMobile ? {height: '200px'} : {height: '100px'}}></div>
+      <div style={isMobile ? {height: '200px'} : {height: '300px'}}></div>
       <Tech/>
       <div style={isMobile ? {height: '0px'} : {height: '1200px'}}></div>
       <Projects/>

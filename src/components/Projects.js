@@ -13,6 +13,7 @@ import Landing from '../assets/landing.png';
 import Photo from '../assets/photo.png';
 import Weather from '../assets/weather.png';
 import Organizer from '../assets/organizer.png';
+import Cores from '../assets/cores.png';
 import SpentIt from '../assets/spent-it.png';
 
 const Projects = () => {
@@ -21,11 +22,30 @@ const Projects = () => {
         <div name='projects' className='w-full md:h-screen bg-[#f8fafc] text-sky-500'>
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div className='pb-8'>
-                    <p className='text-4xl font-bold inline border-b-4 border-sky-500'>Work</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-sky-500'>Projects</p>
                     <p className='py-6 text-zinc-600'>Take a gander at some of the projects i've worked on and have been a part of! Hover over and click on the Code button to see the insides of each project and the technology used to create it. The Demo button will show you the deployed project. Some projects have a Video button that leads you to my tutorial for that app.</p>
                 </div>
 
             <div className='grid sm:grid-cols-1 md:grid-cols-2 gap-4'>
+
+                {/* Cores */}
+                <div
+                    style={{ backgroundImage: `url(${Cores})`, height: '350px' }}
+                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                >
+                    <div className='opacity-0 group-hover:opacity-100'>
+                    <span className='text-2xl font-bold text-white tracking-wider'>
+                        Cores (Battle Card Game)
+                    </span>
+                    <div className='pt-8 text-center'>
+                        <a target="_blank" rel="noreferrer" href='https://www.youtube.com/watch?v=TCNL4D3-3mQ&t=1s'>
+                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                            Demo
+                        </button>
+                        </a>
+                    </div>
+                    </div>
+                </div>
 
                  {/* SPENT-IT */}
                  <div
@@ -137,25 +157,6 @@ const Projects = () => {
                     </div>
                 </div>
 
-                {/* Mingo */}
-                <div
-                    style={{ backgroundImage: `url(${Mingo})`, height: '350px' }}
-                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                >
-                    <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
-                        Mingo
-                    </span>
-                    <div className='pt-8 text-center'>
-                        <a target="_blank" rel="noreferrer" href='https://apps.apple.com/us/app/mingo/id1327553905'>
-                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                                App Store
-                            </button>
-                        </a>
-                    </div>
-                    </div>
-                </div>
-
                 {/* HBAR */}
                 <div
                     style={{ backgroundImage: `url(${hbar})`, height: '350px' }}
@@ -198,30 +199,6 @@ const Projects = () => {
                         <a target="_blank" rel="noreferrer" href='https://www.youtube.com/watch?v=A5SpI1fVfvU&t=2s'>
                         <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                             Video
-                        </button>
-                        </a>
-                    </div>
-                    </div>
-                </div>
-
-                {/* Teacher */}
-                <div
-                    style={{ backgroundImage: `url(${Teacher})`, height: '350px' }}
-                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                >
-                    <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
-                        MERN Teacher Website
-                    </span>
-                    <div className='pt-8 text-center'>
-                        <a target="_blank" rel="noreferrer" href='https://github.com/davidlindnerjr/Ms.JL-Teacher-Website'>
-                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                            Code
-                        </button>
-                        </a>
-                        <a target="_blank" rel="noreferrer" href='https://sarahjl.herokuapp.com/'>
-                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                            Demo
                         </button>
                         </a>
                     </div>
@@ -289,31 +266,6 @@ const Projects = () => {
                     </div>
                     </div>
                 </div>
-
-                {/* Life Organizer */}
-                <div
-                    style={{ backgroundImage: `url(${Organizer})`, height: '350px' }}
-                    className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
-                >
-                    <div className='opacity-0 group-hover:opacity-100'>
-                    <span className='text-2xl font-bold text-white tracking-wider'>
-                        Life Organizer - JQuery
-                    </span>
-                    <div className='pt-8 text-center'>
-                        <a target="_blank" rel="noreferrer" href='https://davidlindnerjr.github.io/Life-Organizer/'>
-                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                            Demo
-                        </button>
-                        </a>
-                        <a target="_blank" rel="noreferrer" href='https://github.com/davidlindnerjr/Life-Organizer'>
-                        <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
-                            Code
-                        </button>
-                        </a>
-                    </div>
-                    </div>
-                </div>
-
 
             </div>
             </div>           
