@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 // Assets
 import Avatar from '../assets/avatar.png';
-import Resume from '../assets/Resume.pdf';
+import Resume from '../assets/david-gil-resume.pdf';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
