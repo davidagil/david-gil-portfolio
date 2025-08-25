@@ -6,7 +6,7 @@ import { Link } from 'react-scroll';
 
 // Assets
 import Avatar from '../assets/avatar.png';
-import Resume from '../assets/david-lindner-resume.pdf';
+import Resume from '../assets/Resume.pdf';
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -14,9 +14,9 @@ const Navbar = () => {
 
     return (
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#f8fafc] text-sky-500'>
-            <div>
+            {/* <div>
                 <img src={ Avatar } alt="Avater logo" style={{ width: '65px' }}/>
-            </div>
+            </div> */}
 
             
             <ul className='hidden md:flex'>

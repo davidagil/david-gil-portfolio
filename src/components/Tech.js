@@ -27,14 +27,14 @@ import MaterialUI from '../assets/materialui.png';
 // Version Control & Hosting
 import Firebase from '../assets/firebase.png';
 import GitHub from '../assets/git.png';
+import Java from '../assets/java.png';
 
 const Tech = () => {
   return (
 
-    <div name='technologies' className='w-full md:h-screen bg-[#f8fafc] text-sky-500 py-4'>
+    <div name='technologies' className='w-full md:h-screen bg-[#f8fafc] text-sky-500 py-8'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
-
-            <div>
+            <div className="pt-9">
                 <p className='text-4xl font-bold inline border-b-4 border-sky-500'>Technologies</p>
                 <p className='py-4 text-zinc-600'>Here are the languages, frameworks, and hosting services im skilled in.</p>
             </div>
@@ -86,6 +86,14 @@ const Tech = () => {
                     <div className='w-20 mx-auto text-zinc-600'>
                         <img src={ Python } alt='Python Icon'/>
                         <p className='my-4'>Python</p>
+                    </div>
+                </div>
+
+                { /*Java*/ }
+                <div className='pt-8 shadow-md shadow-zinc-600 hover:scale-110 duration-500'>
+                    <div className='w-20 mx-auto text-zinc-600'>
+                        <img src={ Java } alt='Java Icon'/>
+                        <p className='my-4'>Java</p>
                     </div>
                 </div>
 

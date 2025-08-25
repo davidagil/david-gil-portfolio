@@ -7,12 +7,11 @@ const Home = () => {
     <div name='home' className='w-full h-screen bg-[#f8fafc]'>
 
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
-            <p className='text-sky-500'>Howdy! My name is</p>
-            <h2 className='text-4xl sm:text-7xl font-bold'>David Lindner</h2>
-            <h2 className='text-4xl sm:text-7xl font-bold text-zinc-600'>I'm a Full Stack Software Engineer.</h2>
+            <h2 className='text-4xl sm:text-7xl font-bold'>David Gil</h2>
+            <h2 className='text-4xl sm:text-7xl font-bold text-zinc-600'>Full Stack Software Engineer.</h2>
             <p className='text-zinc-600 py-4 max-w-[700px]'>
-                I specialize in building exceptional mobile and web applications using a multitude of
-                different technologies. I'm focused on building beautiful, and responsive, full stack 
+                Specializing in building exceptional mobile and web applications using a multitude of
+                different technologies. Focusing on building beautiful, and responsive, full stack 
                 projects.
             </p>
             <div>
